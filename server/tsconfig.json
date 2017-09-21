@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es2015",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "removeComments": false,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "lib": [
+            "es2015"
+        ],
+        "paths": {
+            "lib/*": [
+                "../lib/*"
+            ]
+        }
+    },
+    "exclude": [
+        "logs",
+        "node_modules"
+    ]
+}
