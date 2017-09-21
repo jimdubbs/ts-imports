@@ -9,6 +9,10 @@
         "noImplicitReturns": true,
         "noImplicitAny": true,
         "preserveConstEnums": true,
+        "rootDirs": [
+            ".",
+            "../lib/*"
+        ],
         "lib": [
             "es2015"
         ],
